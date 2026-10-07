@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="tile" x1="8" y1="5" x2="56" y2="61" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34424D"/>
+      <stop offset="1" stop-color="#202A32"/>
+    </linearGradient>
+    <linearGradient id="steel" x1="15" y1="9" x2="49" y2="55" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667680"/>
+      <stop offset="1" stop-color="#3C4A54"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="12" y1="15" x2="52" y2="49" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#36D0C4"/>
+      <stop offset="1" stop-color="#12AFA8"/>
+    </linearGradient>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="15" fill="url(#tile)"/>
+  <circle cx="32" cy="32" r="24" fill="#1A242B"/>
+  <circle cx="32" cy="32" r="21.5" fill="url(#steel)"/>
+  <circle cx="32" cy="32" r="18.5" fill="#26333B"/>
+  <circle cx="32" cy="32" r="15.5" fill="#35434C"/>
+  <circle cx="32" cy="32" r="13.2" fill="#2A3740"/>
+
+  <!-- Exposed locking pins around the vault door's edge. -->
+  <g fill="url(#teal)">
+    <rect x="28.5" y="7" width="7" height="10" rx="3.5"/>
+    <rect x="28.5" y="47" width="7" height="10" rx="3.5"/>
+    <rect x="7" y="28.5" width="10" height="7" rx="3.5"/>
+    <rect x="47" y="28.5" width="10" height="7" rx="3.5"/>
+    <rect x="28.5" y="7" width="7" height="10" rx="3.5" transform="rotate(45 32 32)"/>
+    <rect x="28.5" y="7" width="7" height="10" rx="3.5" transform="rotate(135 32 32)"/>
+    <rect x="28.5" y="7" width="7" height="10" rx="3.5" transform="rotate(225 32 32)"/>
+    <rect x="28.5" y="7" width="7" height="10" rx="3.5" transform="rotate(315 32 32)"/>
+  </g>
+
+  <!-- Solid spokes and hub make the center read as a turning wheel. -->
+  <g fill="#AAB6BC">
+    <rect x="30.5" y="17.5" width="3" height="29" rx="1.5"/>
+    <rect x="17.5" y="30.5" width="29" height="3" rx="1.5"/>
+  </g>
+  <circle cx="32" cy="32" r="7.2" fill="url(#teal)"/>
+  <circle cx="32" cy="32" r="2.4" fill="#26333B"/>
+</svg>
